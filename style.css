@@ -33,16 +33,21 @@ h2 {
 }
 
 input {
-    width: 100%;
+    width: 80%;
     height: 45px;
     border-radius: 10px;
     border: 1px solid black;
     padding: 10px;
     margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 label {
-    font-size: 20px;
+    font-size: 25px;
+    margin: 40px;
+
 }
 
 button {
