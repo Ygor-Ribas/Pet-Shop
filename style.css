@@ -79,16 +79,15 @@ button:hover {
 
 .links{
     display: flex;
-    gap: 20px;
+    gap: 105px;
     align-items: center;
+    margin: 15px;
 }
 
 .recuperar{
     color: grey;
     font-size: 15px;
 }
-.links p{
-    margin: 0%;
-}
+
     
 
