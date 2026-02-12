@@ -101,3 +101,9 @@ button {
     background-color: #cfffff;
     font-size: 18px;
 }
+
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 32px;
+  }
+}
