@@ -1,13 +1,36 @@
 body {
-    background-color: #67dca0;
-    padding: 20px;
+    background-color: #cfffff;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  display: flex;
+  color: #11426a;
+  background-color: #acdaf1;
+  align-items: center;
+  justify-content: center;
+}
+
+.pata {
+  width: 400px;
+  height: auto;
+  margin: 0;
+  padding: 0;
+  margin-right: -120px;
+}
+
+header h1 {
+  font-size: 80px;
+  margin: 0%;
+  padding: 0%;
+  letter-spacing: 0;
+  line-height: 1;
 }
 
 .titulo {
     text-align: center;
     font-size: 26px;
-    color: aliceblue;
+    color: black;
 }
 
 .titulo h1 {
@@ -22,7 +45,7 @@ body {
 }
 
 .dados {
-    background-color: #126d50;
+    background-color: #11426a;
     width: 80%;
     max-width: 450px;
     margin: auto;
