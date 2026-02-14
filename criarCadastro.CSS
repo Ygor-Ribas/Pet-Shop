@@ -1,0 +1,36 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0%;
+  background-color: #cfffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #acdaf1;
+    padding: 20px 0;
+}
+
+.pata1{
+    width: 400px;
+    height: auto;
+    transform: translateX(60px);
+}
+
+.criar1{
+    font-size: 60px;
+    line-height: 1;
+    margin: 0;
+    transform: translateX(-60px);
+    color: #11426a;
+}
+
+
