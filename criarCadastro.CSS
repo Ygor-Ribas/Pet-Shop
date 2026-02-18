@@ -1,11 +1,10 @@
 * {
-  margin: 0%;
-  padding: 0%;
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 body {
-  margin: 0%;
   background-color: #cfffff;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -16,27 +15,81 @@ header {
   justify-content: center;
   align-items: center;
   background-color: #acdaf1;
-  padding: 20px 0;
-  position: relative;
+  padding: 30px 0;
 }
 
 .pata1 {
-  width: 350px;
+  width: 300px;
   height: auto;
-  transform: translateX(60px);
-  position: absolute;
-  margin-right: 45%;
+  margin-right: -100px;
+  margin-left: -90px;
 }
+
 
 .criar1 {
-  font-size: 60px;
-  line-height: 1;
-  margin: 0;
-  transform: translateX(-60px);
+  font-size: 50px;
   color: #11426a;
-  margin-left: 18%;
+  
+  
 }
 
-.dados-criar{
-    
+
+body > div {
+  width: 90%;
+  max-width: 800px;
+  margin: 40px auto;
+  background-color: white;
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.titulo-Criar {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.titulo-Criar h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+  color: #11426a;
+}
+
+.titulo-Criar p {
+  font-size: 16px;
+  color: #333;
+}
+
+.dados-criar,
+body > div > div:nth-of-type(3),
+body > div > div:nth-of-type(4) {
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #11426a;
+}
+
+input,
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  border: 1px solid #11426a;
+}
+
+h1 {
+  margin-top: 30px;
+  font-size: 26px;
+  color: #11426a;
 }

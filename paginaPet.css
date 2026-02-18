@@ -10,84 +10,95 @@ body {
 }
 
 header {
+  width: 100%;
   display: flex;
-  color: #11426a;
-  background-color: #acdaf1;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  background-color: #acdaf1;
+  padding: 30px 0;
 }
 
 .pata {
-  width: 400px;
+  width: 300px;
   height: auto;
-  margin: 0;
-  padding: 0;
-  margin-right: -120px;
+  margin-right: -100px;
+  margin-left: -90px;
 }
 
+
 header h1 {
-  font-size: 80px;
-  margin: 0%;
-  padding: 0%;
-  letter-spacing: 0;
-  line-height: 1;
+  font-size: 50px;
+  color: #11426a;
+  
+  
 }
+
 
 section h1 {
   text-align: center;
-  font-size: 40px;
+  font-size: 38px;
   font-weight: 400;
-  margin-top: 40px;
+  margin: 50px 0 20px 0;
+  color: #11426a;
 }
 
 section > div {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 40px;
+  gap: 25px;
+  padding: 40px 60px;
 }
 
 section > div > div {
   border: 1px solid #ddd;
-  border-radius: 12px;
-  padding: 20px;
+  border-radius: 15px;
+  padding: 25px 20px;
   background-color: #9dd7eb;
   text-align: center;
   cursor: pointer;
-  transition:
-    transform 0.3s ease,
-    background-color 0.3s ease;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 section > div > div:hover {
-  transform: translateY(-10px);
-  background-color: aquamarine;
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 section img {
   width: 100%;
-  max-width: 260px;
-  height: 150px;
-  border-radius: 8px;
+  max-width: 100%;
+  height: 130px;
+  border-radius: 10px;
   object-fit: cover;
+  margin-bottom: 15px;
+}
+
+section h3 {
+  margin-bottom: 10px;
+  color: #11426a;
+}
+
+section p {
+  font-size: 14px;
+  color: #333;
 }
 
 footer {
   width: 100%;
   background-color: #cfffff;
-  padding: 30px 0;
+  padding: 50px 0;
 }
 
 footer h2 {
   text-align: center;
-  font-size: 35px;
-  color: white;
-  margin-bottom: 20px;
+  font-size: 32px;
+  color: #11426a;
+  margin-bottom: 25px;
 }
 
 form {
   width: 100%;
-  max-width: 320px;
+  max-width: 350px;
   margin: auto;
 }
 
@@ -95,13 +106,14 @@ form input,
 form textarea {
   width: 100%;
   border-radius: 15px;
-  border: none;
-  padding: 10px;
+  border: 1px solid #ccc;
+  padding: 12px;
   margin-bottom: 15px;
+  font-size: 14px;
 }
 
 form textarea {
-  height: 100px;
+  height: 120px;
   resize: none;
 }
 
@@ -120,16 +132,21 @@ button:hover {
   background-color: teal;
 }
 
-.conosco {
-  padding: 30px;
-}
-
 @media (max-width: 768px) {
+  .pata {
+    width: 200px;
+    margin-right: -70px;
+  }
+
   header h1 {
-    font-size: 32px;
+    font-size: 40px;
   }
 
   section h1 {
     font-size: 28px;
+  }
+
+  section > div {
+    padding: 30px;
   }
 }
